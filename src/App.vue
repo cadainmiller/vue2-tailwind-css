@@ -5,8 +5,6 @@
   >
     <!-- component -->
     <div class="h-screen w-screen flex bg-gray-200">
-      <!-- container -->
-
       <aside
         class="flex flex-col items-center bg-white text-gray-700 shadow h-full"
       >
@@ -217,7 +215,7 @@
         </div>
       </aside>
 
-      <div><router-view class="flex-1" /></div>
+      <div class="px-4"><router-view /></div>
     </div>
 
     <portal-target name="modals"></portal-target>
